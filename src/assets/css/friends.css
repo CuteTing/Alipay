@@ -1,0 +1,77 @@
+@charset "UTF-8";
+header{
+  display: flex;
+  font-size: 1.5rem;
+  padding: .8rem;
+  background: #fff;
+  border-bottom: 1px solid #ddd;
+}
+header p:nth-child(1){
+  width: 50%;
+}
+header p:nth-child(1) a{
+  color: #108ee9;
+}
+header p:nth-child(1) img{
+  width: 1rem;
+  margin-right: .3rem;
+}
+header p:nth-child(2){
+  width: 60%;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+div.select{
+	background: #dfdfe2;
+	padding: .8rem 1rem;
+	position: relative;
+}
+div.select input[type="text"]{
+	background: #fff;
+	border: none;
+	outline: none;
+	padding: .4rem 1rem;
+	width: 100%;
+	text-align: center;
+	border-radius: 5px;
+}
+div.select input::placeholder,
+.glyphicon-search{
+	color: #999;
+}
+.glyphicon-search{
+	position: absolute;
+	top: 1.5rem;
+	left: 5.5rem;
+}
+
+
+
+article{
+	background: #fff;
+}
+article div.art_info{
+	display: flex;
+	padding: 1rem;
+	border: 1px solid #ececec;
+}
+article div.art_info .art_f_left img{
+	width: 5rem;
+}
+article div.art_info .art_f_right{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	line-height: .5rem;
+	margin-left: .5rem;
+}
+div.art_info .art_f_right p:nth-child(1) span:nth-child(2),
+div.art_info .art_f_right p:nth-child(2){
+	color: #a1a1a1;
+}
+div.art_info .art_f_right p:nth-child(1){
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}

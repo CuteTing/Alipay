@@ -1,0 +1,14 @@
+{
+    "status":0,
+    "items":[
+        {
+            "url":"../src/assets/ant.jpg",
+            "text1":"蚂蚁金服",
+            "text2":"ANT FINANCIAL"
+        },{
+            "url":"../src/assets/pay.jpg",
+            "text1":"支付宝",
+            "text2":"ALIPAY"
+        }
+    ]
+}

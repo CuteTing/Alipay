@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+header{
+    background: #1e82d2;
+    width: 100%;
+}
+header .select{
+    padding: .8rem .5rem;
+}
+header .select,
+header .select_right,
+.h_nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .select_left{
+    width: 75%;
+    position: relative;
+}
+/* header .select_right{
+    width: 30%;
+} */
+header .select_right img{
+    width: 30%;
+}
+header input[type="text"]{
+    display: block;
+    background: #1a72b9;
+    padding: .5rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    width: 100%;
+    padding-left: 2.8rem;
+    color: #fff;
+}
+header input::placeholder{
+    color: #fff;
+}
+header .select_left img{
+    position: absolute;
+    right: .5rem;
+    top: .9rem;
+    width: 1.5rem;
+}
+.glyphicon-search{
+    color: #fff;
+    position: absolute;
+    top: .8rem;
+    left: .8rem;
+}
+.h_nav{
+    width: 100%;
+    color: #fff;
+    margin: 0;
+    padding: 1rem;
+    height: 8rem;
+}
+.h_nav ul{
+    width: 100%;
+    height: 100%;
+}
+.h_nav li{
+    float: left;
+    text-align: center;
+}
+.h_nav li img{
+    height: 3.5rem;
+}
+.h_nav li span{
+    display: inline-block;
+    width: 100%;
+    margin-top: .8rem;
+    font-size: 1.5rem;
+}
+nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;  
+    background: #fff; 
+}
+nav ul li{
+    width: 25%;
+    height: 8rem;
+}
+nav ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: .8rem 0;
+    color: #333;
+}
+nav ul li img{
+    height: 2.5rem;
+}
+nav ul li span{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+}
+nav ul li:nth-of-type(3) img,
+nav ul li:nth-of-type(7) img,
+nav ul li:nth-of-type(11) img{
+    width: 2.2rem;
+}
+div.remind{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .8rem;
+    background: #fff;
+    margin: .5rem 0;
+    font-size: 1.5rem;
+}
+div.remind .circle span{
+    display: inline-block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background: #e8f6ff;   
+}
+div.remind ul li{
+    list-style: disc;
+    display: flex;
+    align-items: center;
+}
+div.remind ul  a{
+    color: #333;
+}
+div.remind ul li i{
+    display: block;
+    width: .5rem;
+    height: .5rem;
+    background: #000;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+div.remind ul li span{
+    display: block;
+    max-width: 16rem; 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;  
+    margin-right: .5rem; 
+}
+div.remind ul li label{
+    color: #9e9e9e;
+    font-weight: 100;
+}
+.glyphicon-menu-right{
+    color:#a8a8a8;
+}
+/* 轮播 */
+div.layui-carousel{
+    background: #fff;
+    padding: 1rem;
+    line-height: 2rem;
+}
+div.layui-carousel>div{
+    background: #fff;
+}
+div.layui-carousel-ind{
+    top:-1rem;
+}
+.carousel{ 
+    display: flex;
+    align-items: center; 
+}
+div.layui-carousel>[carousel-item]>*{
+    background: #fff;
+}
+.layui-carousel .layui-carousel-ind ul{
+    background: #fff;
+}
+div.layui-carousel .layui-carousel-ind li{
+    width: 1rem;
+    height: .4rem;
+    border-radius: 0%; 
+    background: #e9e9e9;   
+}
+div.layui-carousel .layui-carousel-ind li.layui-this{
+    background: #1a72b9 
+}
+.carousel_info p:first-child{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.carousel_info p:first-child span:nth-of-type(2){
+    color: #1d8fe1;
+}
+.carousel_info p:nth-of-type(2){
+    color: #999;
+}
+
+article{
+    padding-bottom: 6rem;
+}
+div.service{
+    background: #fff;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+div.ser_title{
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    font-size: 1.5rem;
+    padding: .8rem 1rem;
+}
+div.ser_title span{
+    display: inline-block;
+    width: .3rem;
+    height: 1.5rem;
+    background: #1d8fe1;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+div.ser_info{
+    padding: 1.5rem .5rem;
+    line-height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+div.one{
+    border-right: 1px solid #eee;
+}
+
+div.ser_info_left p:nth-of-type(1){
+    color: #000;
+    font-size: 1.7rem;
+}
+div.ser_info_left p:nth-of-type(2){
+    color: #9d9d9d;
+    font-size: 1.5rem;
+}
+div.ser_info_right span{
+    display: inline-block;
+    width: 4rem;
+    height: 4rem;
+    background: #fff9e3;
+    border-radius: 50%;
+}
+div.ser_info:nth-of-type(3) span{
+    background: #ffdf85;
+}
+div.service:nth-of-type(2) div.ser_info:nth-of-type(2) span{
+    background: #d9f0ff;
+}
+div.service:nth-of-type(2) div.ser_info:nth-of-type(3) span{
+    background: #ffdfd5;
+}
+div.buying{
+    margin-top: 1rem;
+    padding: 1rem;
+    background: #fff;
+}
+div.buying_title{
+    font-size: 1.8rem;
+    color: #000;
+}
+div.buying_title span{
+    display: inline-block;
+    padding: 1rem .3rem;
+    background: #91cbfb;
+    border-radius: 5px;
+    font-size: 1rem;
+    color: #fff;
+    margin-right: .6rem;
+}
+div.buying_info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+div.b_info_left{
+    line-height: 2.5rem;
+}
+div.b_info_left p:nth-of-type(1){
+    font-size: 2rem;
+    color: #333;
+    font-weight: 540;
+}
+div.b_info_left p:nth-of-type(2){
+    font-size: 1.5rem;
+    color: #9d9d9d;
+}
+div.b_info_left p:nth-of-type(3){
+    font-size: 1.5rem;
+    color: #76bff3;
+}
+div.b_info_left p:nth-of-type(3) span{
+    padding: .3rem 1rem;
+    background: #ecf6fe;
+    border: 1px solid #b3dbf7;
+    border-radius: 3px;
+}
+div.b_info_img img{
+    width: 4rem;
+}
+div.underline{
+    height: 5rem;
+    padding: 1rem;
+    color: #b4b4b5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1.5rem;
+}
+div.underline span{
+    display: inline-block;
+    width: 8rem;
+    border: 1px solid #d8dcda;
+}

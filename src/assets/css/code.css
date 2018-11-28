@@ -1,0 +1,176 @@
+@charset "UTF-8";
+body,header,div.collect,article{
+	background: #0e80d8;
+}
+header{
+	padding: .8rem;
+	display: flex;
+	justify-content: space-between;
+	color: #fff;
+}
+header span i{
+	display: inline-block;
+	width: 1rem;
+	height: 2rem;
+	vertical-align: middle;
+}
+header span:nth-child(1) i{
+	background: url(../../../static/img/back.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	margin-right: .5rem;
+}
+header span:nth-child(3) i{
+	width: 2rem;
+	height: .8rem;
+	background: url(../../../static/img/more.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+article{
+	padding: 1rem;
+}
+div.art_code,div.update{
+	width: 95%;
+	margin: 0 auto;
+	color: #333;
+	background: #fff;
+	padding: 5% 0;
+	border-radius: 5px;
+	position: relative;
+}
+div.art_code p{
+	text-align: center;
+}
+div.art_code div.art_code_img{
+	text-align: center;
+	margin: 15% 0;
+}
+div.art_code div.art_code_img img{
+	width: 80%;
+}
+div.art_code p.art_active{
+	width: 80%;
+	margin: 0 auto;
+	color: #1490e9;
+	display: flex;
+	justify-content: space-between;
+}
+div.art_code p.art_active span.art_line{
+	border: 1px solid #c7c7c7;
+	font-size: 1.2rem;
+}
+div.update{
+	margin: 0 auto;
+	margin-top: .8rem ;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+div.update p:nth-child(1) span{
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: url() no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	vertical-align: middle;
+}
+div.update p:nth-child(2) span{
+	display: inline-block;
+	width: 2rem;
+	height: 3rem;
+	background: url(../../../static/img/collect_05.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	vertical-align: middle;
+}
+i.glyphicon-chevron-right{
+	color: #c7c7c7;
+	font-style: 1.5rem;
+	font-weight: 100;
+}
+div.art_end{
+	color: #cfe8fb;
+	padding: 5% 0;
+}
+div.art_end p{
+	text-align: center;
+	font-style: 1.5rem;
+}
+
+/*取钱*/
+div.bar {
+	text-align: center;
+	color: #a1a1a1;
+}
+div.bar img{
+	width: 80%;
+	margin: 0 auto;
+	margin-bottom: .8rem;
+}
+div.art_code div.payfor_img{
+	padding: 5% 0 15% 0;
+	margin: 0;
+}
+p.balance{
+	width: 100%;
+	border-top: 1px solid #dddddd;
+	background: #f6f6fa;
+	padding: 1rem;
+	position: absolute;
+	bottom: 0;
+}
+p.balance i{
+	margin: 0 .8rem;
+}
+p.balance i.glyphicon-chevron-right{
+	font-size: 1.5rem;
+}
+p.balance i:nth-child(1){
+	display: inline-block;
+	width: 2rem;
+	height: 2rem;
+	background: url(../../../static/img/money.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+	vertical-align: middle;
+}
+div.other{
+	text-align: center;
+	color: #9dc8ed;
+	margin: 1rem 0;
+}
+div.art_otherway{
+	color: #9dc8ed;
+	display: flex;
+	justify-content: space-around;
+	padding: 2rem 0;
+}
+div.art_otherway p{
+	text-align: center;
+}
+div.art_otherway p i{
+	display: inline-block;
+	width: 3rem;
+	height: 3rem;
+}
+div.art_otherway p:nth-child(1) i{
+	background: url(../../../static/img/payment_code.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+div.art_otherway p:nth-child(2) i{
+	background: url(../../../static/img/scan_code.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+div.art_otherway p:nth-child(3) i{
+	background: url(../../../static/img/sound.jpg) no-repeat;
+	-webkit-background-size: 100%;
+	background-size: 100%;
+}
+div.art_otherway p span{
+	display: inline-block;
+	width: 100%;
+}

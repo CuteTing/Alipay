@@ -1,0 +1,196 @@
+@charset "UTF-8";
+div#app{
+    padding-bottom: 6rem;
+}
+header{
+    background: #fff;
+}
+header .select{
+    padding: .8rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header .back a{
+    display: flex;
+    align-items: center;
+}
+header a,.glyphicon-menu-left{
+    color: #108ee9;
+    font-size: 1.8rem;
+}
+.select_info{
+    width: 70%;
+}
+.form-control{
+    outline: none;
+    height: 30px;
+}
+.form-control,.input-group-addon{
+    background: #f2f2f2;
+    border: none;
+    box-shadow: none;
+    color: #c5c5c5;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.glyphicon-search{
+    color: #c5c5c5;
+    font-size: 1.5rem;
+
+}
+/* 我的应用 */
+div.myapp{
+    width: 100%;
+    padding: 1rem;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 1rem;
+}
+div.myapp,div.myapp_icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+div.myapp div.my span{
+    font-size: 1.8rem;
+    color: #000;
+    font-weight: 550;
+}
+div.myapp_icon{
+    width: 50%;
+}
+div.myapp_icon i{
+    display: inline-block;
+    width: 1.8rem;
+    height: 1.8rem;
+    vertical-align: middle;
+}
+div.myapp_icon i:nth-of-type(1){
+    width: 2.2rem;
+    background: url(../../../static/img/voucher_center/voucher_center_39.jpg) no-repeat;
+    background-size: 100%;
+}
+div.myapp_icon i:nth-of-type(2){
+    height: 1.5rem;
+    background: url(../../../static/img/voucher_center/voucher_center_36.jpg) no-repeat;
+    background-size: 100%;
+}
+div.myapp_icon i:nth-of-type(3){
+    height: 2.2rem;
+    background: url(../../../static/img/more/more_32.jpg) no-repeat 0px -3px;
+    background-size: 100%;
+}
+div.myapp_icon i:nth-of-type(4){
+    height: 2.2rem;
+    background: url(../../../static/img/voucher_center/voucher_center_33.jpg) no-repeat;
+    background-size: 100%;
+}
+div.myapp_icon i:nth-of-type(5){
+    background: url(../../../static/img/voucher_center/voucher_center_48.jpg) no-repeat;
+    background-size: 100%;
+}
+div.myapp_icon i:nth-of-type(6){
+    background: url(../../../static/img/more/more_03.jpg) no-repeat;
+    background-size: 100%;
+}
+div.myapp_icon i:nth-of-type(7){
+    height: 1rem;
+    width: 1.5rem;
+    background: url(../../../static/img/more/more_05.jpg) no-repeat;
+    background-size: 100%;
+}
+div.edit a{
+    display: inline-block;
+    padding: .5rem .8rem;
+    border: 1px solid #128fe9;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+/* 最近使用 */
+section{
+    width: 100%;
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+div.sec-title{
+    font-size: 2rem;
+    color: #000;
+    font-weight: 550;
+}
+div.sec-title span{
+    display: inline-block;
+    background: #1d8fe1;
+    width: .5rem;
+    height: 1.8rem;
+    vertical-align: middle;
+    margin-right: .5rem;
+}
+div.sec_info ul,.layui-show ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+div.sec_info ul li,
+.layui-show ul li{
+    width: 25%;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.sec_info ul li img,.layui-show ul img{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+div.sec_info ul li span,
+.layui-show ul li span {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+/* 为你推荐 */
+div.sec_content{
+    display: flex;
+    padding: 1rem 0;
+    width: 100%;
+}
+div.sec_content div{
+    /*width: 12rem;
+    height: 5rem;*/
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: .8rem 1rem;
+    justify-content: center;
+    line-height: 2rem;
+    margin-right: .8rem;
+    color: #000;
+}
+div.sec_content div:nth-of-type(1){
+    background: #f9bf68;
+}
+div.sec_content div:nth-of-type(2){
+    background: #ff8e5c;
+}
+
+article{
+    background: #fff;
+    padding: .5rem;
+    font-size: 1.5rem;
+}
+div.layui-tab,div.layui-tab-content{
+    margin: 0;
+}
+.layui-tab-brief>.layui-tab-title .layui-this{
+    color: #138fe9;
+}
+.layui-tab-brief>.layui-tab-more li.layui-this:after,
+.layui-tab-brief>.layui-tab-title .layui-this:after{
+    border-bottom-color: #138fe9;
+}
